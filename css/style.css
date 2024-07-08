@@ -1,0 +1,193 @@
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+body {
+    margin: 0;
+    color: #212529;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* ////////////////////home/////////////////////////// */
+.home{
+    background-image:  url(../imges/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    
+}
+.Home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.home-content h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+.options{
+    top: 60%;
+}
+.options span{
+  position: absolute;
+  font-size:40px;
+  cursor:pointer;
+  color: #fff;
+  width: 150px;
+  transition: all 0.5s;
+}
+#optionsSide  a{
+    display: block;
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    color: white;
+}
+#optionsSide {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* ///////////////////////////duration////////////////////////////////// */
+#duration h3 {
+    padding: 10px;
+    background-color: rgba(214, 46, 51, 0.6);
+    margin: 0;
+    cursor: pointer;
+    color: white;
+}
+#duration .desc {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#duration {
+    margin: 100px auto;
+    width: 50%;
+}
+
+/* ////////////////////////details///////////////////////////////// */
+#details {
+    height: 330px;
+    background-image: url(../imges/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;   
+}
+.container {
+    padding: 100px 0px;
+}
+.details-overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.time {
+    border: 1px solid #FFF;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 30px;
+}
+/* ///////////////////contact////////////////////// */
+#contact .contact-head h2 {
+    font-size: 35px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact .contact-head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact .contact-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+#contact .contact-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#contact .icons {
+    margin-top: 50px;
+}
+#contact .icons p {
+    margin-bottom: 35px;
+}
+#contact .red {
+    color: #D62E33 !important;
+}
+#contact .contact-info .social-list {
+    margin-top: 60px;
+    color: #777;
+}
+#contact .contact-info .social-list i {
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    cursor: pointer;
+}
+#contact form input, #contact form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact form textarea {
+    height: 200px;
+    resize: vertical;
+}
+#charctars {
+    font-size: 20px;
+    color: #D62E33;
+}
+#contact form button {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #D62E33;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+form button{
+    display:block;
+    margin-top:20px
+}
+.fw-400 {
+    font-weight: 400;
+}
